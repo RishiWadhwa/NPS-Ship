@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "properties": {
+    "dark_rf": true,
+    "orientation": 55.633816349516685,
+    "constellation": "HawkEye360-5",
+    "received_at": "2023-03-13T08:14:37.148396Z",
+    "pass_group_id": "d0469147-411b-466a-a2b6-bdd530587b55",
+    "num_bursts": 6,
+    "vessel_associations": [],
+    "soi": "L-Band Mobile Satellite",
+    "semi_minor": 3199.097444737241,
+    "version": "v1.0-3",
+    "semi_major": 23778.79489749861
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -117.06648445159786,
+      26.549572401706243,
+      0
+    ]
+  },
+  "id": "234211843"
+}
+
