@@ -73,6 +73,10 @@ for a_id in matched_ids:
     keys = list(all_coords.keys())
     planet_ids.append(keys.index(str(a_id)) + 1)
 
+temp = []
+[temp.append(x) for x in planet_ids if x not in temp]
+
+planet_ids = temp
 
 
 while True:
@@ -137,6 +141,6 @@ while True:
 
         # more ship information as subtitle
         planet_status = 'Yes' if status else 'No'
-        plt.title(f'HE360: Yes  |  Planet.com: {planet_status}\nPlanet.com: {classification}', fontsize=8, loc='right')
+        plt.title(f'HE360: Yes  |  Planet.com: {planet_status}\nClassification: {classification}', fontsize=8, loc='right')
         
         plt.show()
